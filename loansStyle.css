@@ -1,0 +1,49 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #ebe5c5;
+}
+h2 { 
+    color: white;
+    background-color: rgba(76, 175, 80, 0.9);
+    height:7rem;
+    align-content: center;
+    text-align: center;
+    font-size: 2rem;  
+    margin: 0px;
+}
+h2+p{
+    background: rgba(255, 255, 255, 0.8);
+    color: #4CAF50;
+    height: 3rem;
+    margin-top: 0px;
+    align-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.loan-info { 
+    margin-bottom: 25px;
+    background-color: #daddbe;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+.apply-btn { 
+    background-color: green; 
+    color: white; 
+    padding: 10px;
+    border: none; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+.loan-info:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+h3{
+    background-color: #ccc;
+    color: #4CAF50;
+    height: 3rem;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}

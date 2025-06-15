@@ -1,0 +1,33 @@
+body { 
+    font-family: Arial, sans-serif;
+ 
+}
+h2 { 
+    color: white;
+    background-color: rgba(76, 175, 80, 0.9);
+    height:7rem;
+    align-content: center;
+    text-align: center;
+    font-size: 2rem;  
+    margin: 0px;
+}
+.scheme { 
+    margin: 20px 0px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    color: #4CAF50;
+    align-content: center;
+    text-align: center;
+}
+.scheme:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+h3{
+    background-color: #ccc;
+    height: 3rem;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}

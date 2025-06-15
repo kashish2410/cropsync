@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌿 CropSync - Empowering Farmers with Technology 🌿</h1>
+        <p>Your one-stop platform for smart farming solutions</p>
+    </header>
+    <nav>
+        <a href="#marketplace">Marketplace</a>
+        <a href="#insights">Market Insights</a>
+        <a href="#schemes">Govt Schemes</a>
+        <a href="#soil">Soil Analysis</a>
+        <a href="#weather">Weather Alerts</a>
+        <a href="#loans">Loans</a>
+        <a href="lang">Language</a>
+    </nav>
+
+    <section id="marketplace" class="bg-image" >
+        <h2>Digital Marketplace</h2>
+        <p>Farmers can sell directly to wholesalers, eliminating middlemen and increasing profits.</p>
+        <button onclick="openMarketplaceWindow()">Explore Marketplace</button>
+    </section>
+
+    <section id="insights" class="bg-image">
+        <h2>Real-time Market Insights</h2>
+        <p>Stay updated with live crop prices and demand trends to make informed decisions.</p>
+        <button onclick="alert('Live market insights coming soon!')">Get Insights</button>
+    </section>
+
+    <section id="schemes" class="bg-image">
+        <h2>Government Schemes</h2>
+        <p>Check eligibility for financial aid, subsidies, and government assistance programs.</p>
+        <button onclick="openSchemesWindow()">View Schemes</button>
+    </section>
+
+    <section id="soil" class="bg-image">
+        <h2>AI-based Soil Analysis</h2>
+        <p>Upload soil reports to get AI-powered crop recommendations for better yield.</p>
+        <div class="upload">
+        <input type="file" id="soilUpload">
+        <button onclick="uploadSoilReport()">Upload</button>
+    </div>
+    </section>
+    
+    <section id="weather" class="bg-image">
+        <h2>Weather SMS Alerts</h2>
+        <p>Receive real-time weather updates and alerts to protect your crops from climate changes.</p>
+        <button onclick="subscribeWeatherAlerts()">Subscribe</button>
+    </section>
+
+    <section id="loans" class="bg-image">
+        <h2>Easy Loan Assistance</h2>
+        <p>Get access to agricultural loans and financial assistance for your farming needs.</p>
+        <button onclick="applyForLoan()">Apply Now</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 CropSync - Revolutionizing Agriculture</p>
+    </footer>
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
